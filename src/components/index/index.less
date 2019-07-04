@@ -1,0 +1,159 @@
+.mindex{
+  min-height: 360px;
+  .zent-row{
+    margin-left: -8px;
+    margin-right: -8px;
+    .zent-col{
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
+  .avatar{
+    text-align: center;
+    padding: 50px 0;
+    line-height: 25px;
+    background: url("../../style/img/avatar_bg.jpg") no-repeat center center/cover;
+  }
+  .weather{
+    overflow: hidden;
+    padding: 10px 0;
+    width:120px;
+    margin:0 auto;
+    .weather-img{
+      float: left;
+      img{
+        width: 45px;
+        height: 35px;
+      }
+    }
+    .weather-info{
+      float: left;
+      line-height: 35px;
+      height: 35px;
+    }
+  }
+  .pro{
+    text-align: center;
+    margin-top:10px;
+    .zent-row{
+      margin-top: 10px;
+      .zent-col{
+        .pro1{
+          .zent-progress-inner-path{
+            stroke:red;
+            opacity:.6;
+          }
+        }
+        .pro2{
+          .zent-progress-inner-path{
+            stroke:blue;
+            opacity:.6;
+          }
+        }
+        .pro3{
+          .zent-progress-inner-path{
+            stroke:purple;
+            opacity:.6;
+          }
+        }
+      }
+    }
+    p{
+      height: 30px;
+      line-height: 30px;
+      font-size:14px;
+    }
+
+  }
+  .timeline{
+    margin-top:22px;
+    .timeItem{
+      line-height: 25px;
+    }
+  }
+  .collapse{
+    margin-top:22px;
+    .ant-collapse{
+      background: #fff;
+      border:0;
+      .ant-collapse-item{
+        margin-bottom:15px;
+        .ant-collapse-header{
+          color:#fff;
+          background:lightcoral;
+          letter-spacing: 5px;
+          .arrow{
+            letter-spacing: 0;
+            color:#fff;
+          }
+        }
+        .ant-collapse-content{
+          padding:10px 20px;
+          p{
+            line-height: 25px;
+          }
+          .author{
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+  .ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+    text-align: center;
+  }
+  th.column-written,
+  td.column-written {
+    text-align: left !important;
+    padding-left:5%;
+  }
+  .my-chart-card {
+    .zent-card-body {
+      height: 95px;
+      padding: 24px 16px 0;
+      box-sizing: border-box;
+
+      .card-meta {
+        height: 71px;
+        zoom: 1;
+
+        .card-meta-avatar {
+          width: 96px;
+          height: 71px;
+          padding-right: 16px;
+          float: left;
+        }
+
+        .card-meta-detail {
+          overflow: hidden;
+
+          div:not(:last-child) {
+            margin-bottom: 8px;
+          }
+
+          .card-meta-title {
+            font-size: 14px;
+            line-height: 1.5;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            color: #fff;
+            font-weight: 500;
+            text-align: right;
+          }
+
+          .card-meta-description {
+            color: #fff;
+            font-size: 20px;
+            line-height: 1.5;
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+  .zent-timeline{
+    padding:0;
+  }
+}

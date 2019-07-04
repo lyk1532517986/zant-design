@@ -1,0 +1,142 @@
+@media only screen and (min-width: 1200px) {
+  body.show-help.theme-new-ui.show-help #app-help-container {
+    z-index: 1;
+  }
+  body.show-help #app-help-container {
+    z-index: 1;
+  }
+  #app-help-container {
+    transform: translateX(0);
+    border-left: 1px solid #e5e5e5;
+    box-shadow: none;
+  }
+  #app-help-container .app-help-icon-close {
+    display: none !important;
+  }
+}
+body.hide-help #app-help-container {
+  position: fixed;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#app-help-container.show-help {
+  transform: translateX(0);
+}
+#app-help-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  background: #fff;
+  z-index: 99;
+  box-sizing: border-box;
+  font-size: 12px;
+  transform: translateX(200px);
+  transition: transform 0.5s;
+  box-shadow: -2px -2px 8px 0 rgba(0, 0, 0, 0.1);
+  min-height: 615px;
+}
+#app-help-container .app-help-icon-help {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: 0 -180px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAAIcCAYAAAAZqycyAAAAGXRFW…LGKS484x3CggIPCMAg7YKlQjfSVSkPP9+IMAGP9/T/AgwAuZxhE8SQ0Q0AAAAASUVORK5CYII=) no-repeat;
+  background-size: 72px 270px;
+  margin-top: -2px;
+  margin-right: 4px;
+}
+#app-help-container .app-help-icon-close {
+  width: 24px;
+  height: 24px;
+  background-position: 0 -196px;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  cursor: pointer;
+  display: inline-block;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAAIcCAYAAAAZqycyAAAAGXRFW…LGKS484x3CggIPCMAg7YKlQjfSVSkPP9+IMAGP9/T/AgwAuZxhE8SQ0Q0AAAAASUVORK5CYII=) no-repeat;
+  vertical-align: middle;
+  background-size: 72px 270px;
+}
+#app-help-container .help-container-head {
+  line-height: 50px;
+  height: 50px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e5e5e5;
+}
+#app-help-container .help-container-body {
+  padding: 10px 10px 60px;
+}
+#app-help-container .help-container-body .help-body-title {
+  color: #333;
+  border-left: 2px solid #3283fa;
+  padding-left: 8px;
+  padding-right: 10px;
+  line-height: 12px;
+  margin: 10px 0;
+}
+#app-help-container .help-container-body .help-body-title .pull-right {
+  float: right;
+}
+#app-help-container .help-container-body .help-body-content {
+  padding: 10px;
+  margin-bottom: -20px;
+}
+#app-help-container .help-container-body .help-body-content p {
+  margin-bottom: 0.5em;
+  line-height: 1.8em;
+}
+#app-help-container .help-container-body .help-body-content p span {
+  white-space: normal!important;
+  color: #000000;
+}
+#app-help-container .help-container-body .help-body-content p hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 20px 0;
+}
+#app-help-container .help-container-body .help-body-split-line {
+  border-top: 1px solid #e5e5e5;
+  margin: 20px 10px;
+}
+#app-help-container .help-body-service {
+  position: relative;
+}
+#app-help-container .help-body-service .customer-contact-block {
+  display: block;
+  border-top: 2px solid #fff;
+  background-color: #f8f8f8;
+  border-radius: 2px;
+}
+#app-help-container .help-body-service .customer-contact-block .wsc-panama-customer-block {
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+#app-help-container .help-body-service .customer-contact-block .wsc-panama-customer-block .panama-customer-button {
+  display: block;
+  margin: 0 15px;
+  border: 1px solid #bbb;
+  background: #fff;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 24px;
+  color: #333;
+}
+#app-help-container .help-body-service .service-hotline {
+  padding: 14px 0;
+  margin-bottom: 30px;
+  font-size: 12px;
+  text-align: center;
+  border-top: 2px solid #fff;
+  color: #333;
+}
+#app-help-container .help-body-service .wsc-service-hotline {
+  margin: 10px 0 0;
+  padding: 0;
+  border: 0;
+}
+/*# sourceMappingURL=HelpCustom.css.map */

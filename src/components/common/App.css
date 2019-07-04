@@ -1,0 +1,50 @@
+@media only screen and (min-width: 1200px) {
+  body.show-help.theme-new-ui.show-help #app-container {
+    margin-right: 200px;
+  }
+  body.show-help #app-container {
+    margin-right: 200px;
+  }
+  body.show-help #app-container {
+    margin-right: 200px;
+  }
+  body #app-container {
+    margin-right: 200px;
+  }
+  #app-container {
+    margin-right: 200px;
+  }
+}
+#app-container {
+  background: #f2f2f2;
+  width: auto;
+  margin: 0 0 0 200px;
+  padding-bottom: 50px;
+  transition: margin-right 0.5s;
+}
+#app-container .app,
+#app-container .content {
+  width: 100%;
+}
+#app-container .app .app-inner,
+#app-container .content .app-inner {
+  margin: 10px;
+  padding: 15px;
+  min-width: 750px;
+  min-height: 500px;
+  -webkit-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+.container {
+  width: 900px;
+  position: relative;
+  margin: 0 auto;
+}
+.container {
+  zoom: 1;
+  margin: 0 auto;
+  padding: 0;
+  width: 1000px;
+}
+/*# sourceMappingURL=App.css.map */

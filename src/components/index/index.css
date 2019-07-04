@@ -1,0 +1,144 @@
+.mindex {
+  min-height: 360px;
+}
+.mindex .zent-row {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.mindex .zent-row .zent-col {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.mindex .avatar {
+  text-align: center;
+  padding: 50px 0;
+  line-height: 25px;
+  background: url("../../style/img/avatar_bg.jpg") no-repeat center center / cover;
+}
+.mindex .weather {
+  overflow: hidden;
+  padding: 10px 0;
+  width: 120px;
+  margin: 0 auto;
+}
+.mindex .weather .weather-img {
+  float: left;
+}
+.mindex .weather .weather-img img {
+  width: 45px;
+  height: 35px;
+}
+.mindex .weather .weather-info {
+  float: left;
+  line-height: 35px;
+  height: 35px;
+}
+.mindex .pro {
+  text-align: center;
+  margin-top: 10px;
+}
+.mindex .pro .zent-row {
+  margin-top: 10px;
+}
+.mindex .pro .zent-row .zent-col .pro1 .zent-progress-inner-path {
+  stroke: red;
+  opacity: 0.6;
+}
+.mindex .pro .zent-row .zent-col .pro2 .zent-progress-inner-path {
+  stroke: blue;
+  opacity: 0.6;
+}
+.mindex .pro .zent-row .zent-col .pro3 .zent-progress-inner-path {
+  stroke: purple;
+  opacity: 0.6;
+}
+.mindex .pro p {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.mindex .timeline {
+  margin-top: 22px;
+}
+.mindex .timeline .timeItem {
+  line-height: 25px;
+}
+.mindex .collapse {
+  margin-top: 22px;
+}
+.mindex .collapse .ant-collapse {
+  background: #fff;
+  border: 0;
+}
+.mindex .collapse .ant-collapse .ant-collapse-item {
+  margin-bottom: 15px;
+}
+.mindex .collapse .ant-collapse .ant-collapse-item .ant-collapse-header {
+  color: #fff;
+  background: lightcoral;
+  letter-spacing: 5px;
+}
+.mindex .collapse .ant-collapse .ant-collapse-item .ant-collapse-header .arrow {
+  letter-spacing: 0;
+  color: #fff;
+}
+.mindex .collapse .ant-collapse .ant-collapse-item .ant-collapse-content {
+  padding: 10px 20px;
+}
+.mindex .collapse .ant-collapse .ant-collapse-item .ant-collapse-content p {
+  line-height: 25px;
+}
+.mindex .collapse .ant-collapse .ant-collapse-item .ant-collapse-content .author {
+  text-align: right;
+}
+.mindex .ant-table-thead > tr > th,
+.mindex .ant-table-tbody > tr > td {
+  text-align: center;
+}
+.mindex th.column-written,
+.mindex td.column-written {
+  text-align: left !important;
+  padding-left: 5%;
+}
+.mindex .my-chart-card .zent-card-body {
+  height: 95px;
+  padding: 24px 16px 0;
+  box-sizing: border-box;
+}
+.mindex .my-chart-card .zent-card-body .card-meta {
+  height: 71px;
+  zoom: 1;
+}
+.mindex .my-chart-card .zent-card-body .card-meta .card-meta-avatar {
+  width: 96px;
+  height: 71px;
+  padding-right: 16px;
+  float: left;
+}
+.mindex .my-chart-card .zent-card-body .card-meta .card-meta-detail {
+  overflow: hidden;
+}
+.mindex .my-chart-card .zent-card-body .card-meta .card-meta-detail div:not(:last-child) {
+  margin-bottom: 8px;
+}
+.mindex .my-chart-card .zent-card-body .card-meta .card-meta-detail .card-meta-title {
+  font-size: 14px;
+  line-height: 1.5;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #fff;
+  font-weight: 500;
+  text-align: right;
+}
+.mindex .my-chart-card .zent-card-body .card-meta .card-meta-detail .card-meta-description {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: right;
+}
+.mindex .zent-timeline {
+  padding: 0;
+}
+/*# sourceMappingURL=index.css.map */

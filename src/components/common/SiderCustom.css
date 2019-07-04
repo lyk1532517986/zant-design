@@ -1,0 +1,153 @@
+.without-second-sidebar #app-sidebar {
+  width: 90px;
+  box-shadow: none;
+}
+#app-sidebar {
+  position: static;
+}
+#app-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);
+  z-index: 99;
+}
+#team-logo-info {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 65px;
+  word-break: break-word;
+  background: #444;
+  z-index: 1002;
+  width: 90px;
+}
+#team-logo-info .team-logo-wrap {
+  display: block;
+  width: 90px;
+  height: 65px;
+  overflow: hidden;
+}
+#team-logo-info .team-logo-wrap .team-logo {
+  margin: 17px auto 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: #fff;
+}
+#app-first-sidebar {
+  position: fixed;
+  top: 65px;
+  bottom: 0;
+  left: 0;
+  width: 90px;
+  min-height: 460px;
+  box-sizing: border-box;
+  background: #444;
+}
+#app-first-sidebar nav {
+  padding: 0 0 60px;
+  width: 90px;
+  transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1);
+  transition-duration: 0ms;
+  transform: translate(0px, 0px) translateZ(0px);
+}
+#app-first-sidebar nav li {
+  font-size: 14px;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+#app-first-sidebar nav li a {
+  color: #cacaca;
+  display: block;
+  padding-left: 18px;
+}
+#app-first-sidebar nav li .sidebar-icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+#app-first-sidebar nav li.active {
+  background: #f8f8f8;
+}
+#app-first-sidebar nav li.active a {
+  color: #333;
+}
+#app-first-sidebar nav li.active:hover {
+  background: #f8f8f8;
+}
+#app-first-sidebar nav li.active:hover a {
+  color: #333;
+}
+#app-first-sidebar nav li:hover {
+  background: #666;
+}
+#app-first-sidebar nav li:hover a {
+  color: #fff;
+}
+#app-second-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 90px;
+  width: 110px;
+  box-sizing: border-box;
+  background: #fff;
+  z-index: -1;
+}
+#app-second-sidebar .second-sidebar-content {
+  transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1);
+  transition-duration: 0ms;
+  transform: translate(0px, 0px) translateZ(0px);
+}
+#app-second-sidebar .second-sidebar-content .second-sidebar-title {
+  padding-left: 20px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f2f2f2;
+}
+#app-second-sidebar .second-sidebar-content nav {
+  padding: 13px 10px;
+  width: 90px;
+}
+#app-second-sidebar .second-sidebar-content nav li {
+  font-size: 14px;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+}
+#app-second-sidebar .second-sidebar-content nav li a {
+  color: #666;
+  display: block;
+  padding: 0 10px;
+}
+#app-second-sidebar .second-sidebar-content nav li.active {
+  background: #f8f8f8;
+}
+#app-second-sidebar .second-sidebar-content nav li.active a {
+  color: #333;
+}
+#app-second-sidebar .second-sidebar-content nav li:hover a {
+  color: #3283fa;
+}
+#app-second-sidebar .second-sidebar-content nav li.active:hover {
+  background: #f8f8f8;
+}
+#app-second-sidebar .second-sidebar-content nav li.active:hover a {
+  color: #333;
+}
+/*# sourceMappingURL=SiderCustom.css.map */
